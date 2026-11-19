@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T03:07:41Z",
+ "generated_at": "2026-11-19T14:46:45Z",
  "companies": [
   {
    "name": "Amazon",
@@ -7,9 +7,14 @@
    "careers_url": "https://www.amazon.jobs",
    "feed": "amazon",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 307,
+   "error": null,
+   "fetched": 581,
+   "matched": 497,
+   "restricted_removed": 111,
+   "unscreened": 0,
+   "listed": 307
   },
   {
    "name": "Walmart",
@@ -17,9 +22,9 @@
    "careers_url": "https://careers.walmart.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
   },
   {
    "name": "UnitedHealth Group (Optum)",
@@ -57,9 +62,9 @@
    "careers_url": "https://jobs.cvshealth.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cvshealth.wd1.myworkdayjobs.com/wday/cxs/cvshealth/CVS_Health_Careers/jobs"
   },
   {
    "name": "Berkshire Hathaway (GEICO)",
@@ -67,9 +72,9 @@
    "careers_url": "https://careers.geico.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://geico.wd1.myworkdayjobs.com/wday/cxs/geico/External/jobs"
   },
   {
    "name": "Microsoft (incl. LinkedIn)",
@@ -97,9 +102,9 @@
    "careers_url": "https://jobs.thecignagroup.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cigna.wd5.myworkdayjobs.com/wday/cxs/cigna/cignacareers/jobs"
   },
   {
    "name": "Nvidia",
@@ -107,9 +112,9 @@
    "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
   },
   {
    "name": "Meta",
@@ -127,9 +132,9 @@
    "careers_url": "https://careers.bankofamerica.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs"
   },
   {
    "name": "Ford",
@@ -147,9 +152,9 @@
    "careers_url": "https://search-careers.gm.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://generalmotors.wd5.myworkdayjobs.com/wday/cxs/generalmotors/Careers_GM/jobs"
   },
   {
    "name": "Citigroup",
@@ -187,9 +192,9 @@
    "careers_url": "https://jobs.comcast.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs"
   },
   {
    "name": "Wells Fargo",
@@ -207,9 +212,9 @@
    "careers_url": "https://www.morganstanley.com/careers",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
   },
   {
    "name": "Tesla",
@@ -247,9 +252,9 @@
    "careers_url": "https://talent.lowes.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowes.wd5.myworkdayjobs.com/wday/cxs/lowes/LWS_External_CS/jobs"
   },
   {
    "name": "American Express",
@@ -267,9 +272,9 @@
    "careers_url": "https://www.capitalonecareers.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs"
   },
   {
    "name": "IBM",
@@ -287,9 +292,9 @@
    "careers_url": "https://careers.lilly.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://lilly.wd5.myworkdayjobs.com/wday/cxs/lilly/LLY/jobs"
   },
   {
    "name": "Oracle",
@@ -307,9 +312,9 @@
    "careers_url": "https://jobs.cisco.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
   },
   {
    "name": "American Airlines",
@@ -327,9 +332,9 @@
    "careers_url": "https://jobs.intel.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
   },
   {
    "name": "Uber",
@@ -357,9 +362,9 @@
    "careers_url": "https://careers.qualcomm.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
   },
   {
    "name": "U.S. Bancorp",
@@ -367,9 +372,9 @@
    "careers_url": "https://careers.usbank.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs"
   },
   {
    "name": "Salesforce",
@@ -377,9 +382,9 @@
    "careers_url": "https://careers.salesforce.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
   },
   {
    "name": "Visa",
@@ -387,9 +392,14 @@
    "careers_url": "https://corporate.visa.com/en/jobs/",
    "feed": "smartrecruiters",
    "verified": false,
-   "state": "pending",
+   "state": "ok",
    "jobs": 0,
-   "error": null
+   "error": null,
+   "fetched": 0,
+   "matched": 0,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 0
   },
   {
    "name": "Micron",
@@ -397,9 +407,9 @@
    "careers_url": "https://careers.micron.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs"
   },
   {
    "name": "AMD",
@@ -417,9 +427,9 @@
    "careers_url": "https://careers.hpe.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs"
   },
   {
    "name": "PayPal",
@@ -427,9 +437,9 @@
    "careers_url": "https://careers.pypl.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs"
   },
   {
    "name": "Mastercard",
@@ -437,9 +447,9 @@
    "careers_url": "https://careers.mastercard.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
   },
   {
    "name": "Charles Schwab",
@@ -457,9 +467,9 @@
    "careers_url": "https://careers.adobe.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
   },
   {
    "name": "Fiserv",
@@ -467,9 +477,9 @@
    "careers_url": "https://www.careers.fiserv.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs"
   },
   {
    "name": "Cognizant",
@@ -507,9 +517,14 @@
    "careers_url": "https://careers.expediagroup.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 15,
+   "error": null,
+   "fetched": 31,
+   "matched": 18,
+   "restricted_removed": 0,
+   "unscreened": 8,
+   "listed": 15
   },
   {
    "name": "DoorDash",
@@ -517,9 +532,14 @@
    "careers_url": "https://careersatdoordash.com",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 57,
+   "error": null,
+   "fetched": 415,
+   "matched": 57,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 57
   },
   {
    "name": "ServiceNow",
@@ -527,9 +547,14 @@
    "careers_url": "https://careers.servicenow.com",
    "feed": "smartrecruiters",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 92,
+   "error": null,
+   "fetched": 503,
+   "matched": 136,
+   "restricted_removed": 3,
+   "unscreened": 56,
+   "listed": 92
   },
   {
    "name": "DXC Technology",
@@ -537,9 +562,9 @@
    "careers_url": "https://careers.dxc.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://dxctechnology.wd1.myworkdayjobs.com/wday/cxs/dxctechnology/DXCJobs/jobs"
   },
   {
    "name": "eBay",
@@ -547,9 +572,9 @@
    "careers_url": "https://jobs.ebayinc.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs"
   },
   {
    "name": "FIS",
@@ -557,9 +582,9 @@
    "careers_url": "https://careers.fisglobal.com",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs"
   },
   {
    "name": "Workday",
@@ -567,9 +592,9 @@
    "careers_url": "https://www.workday.com/en-us/company/careers.html",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs"
   },
   {
    "name": "Western Digital",
@@ -577,9 +602,14 @@
    "careers_url": "https://jobs.westerndigital.com",
    "feed": "smartrecruiters",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 16,
+   "error": null,
+   "fetched": 276,
+   "matched": 18,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 16
   },
   {
    "name": "Palo Alto Networks",
@@ -587,9 +617,14 @@
    "careers_url": "https://jobs.paloaltonetworks.com",
    "feed": "smartrecruiters",
    "verified": false,
-   "state": "pending",
+   "state": "ok",
    "jobs": 0,
-   "error": null
+   "error": null,
+   "fetched": 0,
+   "matched": 0,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 0
   },
   {
    "name": "Arista Networks",
@@ -597,9 +632,14 @@
    "careers_url": "https://www.arista.com/en/careers",
    "feed": "smartrecruiters",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 62,
+   "error": null,
+   "fetched": 213,
+   "matched": 97,
+   "restricted_removed": 1,
+   "unscreened": 17,
+   "listed": 62
   },
   {
    "name": "TEKsystems",
@@ -1067,9 +1107,9 @@
    "careers_url": "https://www.accenture.com/us-en/careers",
    "feed": "workday",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs"
   },
   {
    "name": "Tata Consultancy Services",
@@ -1097,9 +1137,14 @@
    "careers_url": "https://openai.com/careers/search",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 244,
+   "error": null,
+   "fetched": 835,
+   "matched": 271,
+   "restricted_removed": 4,
+   "unscreened": 0,
+   "listed": 244
   },
   {
    "name": "Databricks",
@@ -1107,9 +1152,14 @@
    "careers_url": "https://www.databricks.com/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 148,
+   "error": null,
+   "fetched": 908,
+   "matched": 252,
+   "restricted_removed": 9,
+   "unscreened": 0,
+   "listed": 148
   },
   {
    "name": "Stripe",
@@ -1117,9 +1167,14 @@
    "careers_url": "https://stripe.com/jobs",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 98,
+   "error": null,
+   "fetched": 782,
+   "matched": 124,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 98
   },
   {
    "name": "Anthropic",
@@ -1127,9 +1182,14 @@
    "careers_url": "https://www.anthropic.com/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 154,
+   "error": null,
+   "fetched": 639,
+   "matched": 167,
+   "restricted_removed": 3,
+   "unscreened": 0,
+   "listed": 154
   },
   {
    "name": "Crusoe",
@@ -1137,9 +1197,14 @@
    "careers_url": "https://crusoe.ai/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 45,
+   "error": null,
+   "fetched": 324,
+   "matched": 45,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 45
   },
   {
    "name": "Scale AI",
@@ -1147,9 +1212,14 @@
    "careers_url": "https://scale.com/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 33,
+   "error": null,
+   "fetched": 167,
+   "matched": 51,
+   "restricted_removed": 11,
+   "unscreened": 0,
+   "listed": 33
   },
   {
    "name": "Notion",
@@ -1157,9 +1227,14 @@
    "careers_url": "https://www.notion.com/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 24,
+   "error": null,
+   "fetched": 168,
+   "matched": 26,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 24
   },
   {
    "name": "Ramp",
@@ -1167,9 +1242,14 @@
    "careers_url": "https://ramp.com/jobs",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 38,
+   "error": null,
+   "fetched": 182,
+   "matched": 38,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 38
   },
   {
    "name": "Rippling",
@@ -1187,9 +1267,14 @@
    "careers_url": "https://grafana.com/careers/",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 41,
+   "error": null,
+   "fetched": 135,
+   "matched": 41,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 41
   },
   {
    "name": "Cohere",
@@ -1197,9 +1282,14 @@
    "careers_url": "https://cohere.com/jobs",
    "feed": "ashby",
    "verified": true,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 44,
+   "error": null,
+   "fetched": 125,
+   "matched": 48,
+   "restricted_removed": 3,
+   "unscreened": 0,
+   "listed": 44
   },
   {
    "name": "ElevenLabs",
@@ -1207,9 +1297,14 @@
    "careers_url": "https://elevenlabs.io/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 26,
+   "error": null,
+   "fetched": 128,
+   "matched": 26,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 26
   },
   {
    "name": "Plaid",
@@ -1217,9 +1312,9 @@
    "careers_url": "https://plaid.com/careers/",
    "feed": "lever",
    "verified": false,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/plaid?mode=json"
   },
   {
    "name": "Perplexity",
@@ -1227,9 +1322,14 @@
    "careers_url": "https://www.perplexity.ai/hub/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 62,
+   "error": null,
+   "fetched": 147,
+   "matched": 64,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 62
   },
   {
    "name": "Vercel",
@@ -1237,9 +1337,14 @@
    "careers_url": "https://vercel.com/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 21,
+   "error": null,
+   "fetched": 86,
+   "matched": 21,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 21
   },
   {
    "name": "Replit",
@@ -1247,9 +1352,14 @@
    "careers_url": "https://replit.com/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 13,
+   "error": null,
+   "fetched": 36,
+   "matched": 13,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 13
   },
   {
    "name": "Supabase",
@@ -1257,9 +1367,14 @@
    "careers_url": "https://www.supabase.com/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 19,
+   "error": null,
+   "fetched": 77,
+   "matched": 19,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 19
   },
   {
    "name": "Baseten",
@@ -1267,9 +1382,14 @@
    "careers_url": "https://baseten.co/careers/jobs",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 30,
+   "error": null,
+   "fetched": 103,
+   "matched": 31,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 30
   },
   {
    "name": "Mercor",
@@ -1277,9 +1397,14 @@
    "careers_url": "https://www.mercor.com/careers/",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 26,
+   "error": null,
+   "fetched": 106,
+   "matched": 31,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 26
   },
   {
    "name": "Speechify",
@@ -1287,9 +1412,14 @@
    "careers_url": "https://job-boards.greenhouse.io/speechify",
    "feed": "greenhouse",
    "verified": true,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 245,
+   "error": null,
+   "fetched": 738,
+   "matched": 246,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 245
   },
   {
    "name": "Airtable",
@@ -1297,9 +1427,14 @@
    "careers_url": "https://airtable.com/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
+   "state": "ok",
    "jobs": 0,
-   "error": null
+   "error": null,
+   "fetched": 11,
+   "matched": 0,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 0
   },
   {
    "name": "Mercury",
@@ -1307,9 +1442,14 @@
    "careers_url": "https://job-boards.greenhouse.io/mercury",
    "feed": "greenhouse",
    "verified": true,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 12,
+   "error": null,
+   "fetched": 72,
+   "matched": 12,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 12
   },
   {
    "name": "Apollo.io",
@@ -1317,9 +1457,14 @@
    "careers_url": "https://www.apollo.io/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 9,
+   "error": null,
+   "fetched": 45,
+   "matched": 9,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 9
   },
   {
    "name": "Together AI",
@@ -1327,9 +1472,14 @@
    "careers_url": "https://together.ai/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 20,
+   "error": null,
+   "fetched": 73,
+   "matched": 23,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 20
   },
   {
    "name": "Tailscale",
@@ -1337,9 +1487,14 @@
    "careers_url": "https://tailscale.com/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 6,
+   "error": null,
+   "fetched": 81,
+   "matched": 12,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 6
   },
   {
    "name": "Suno",
@@ -1347,9 +1502,14 @@
    "careers_url": "https://suno.com/careers",
    "feed": "ashby",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 23,
+   "error": null,
+   "fetched": 63,
+   "matched": 23,
+   "restricted_removed": 0,
+   "unscreened": 0,
+   "listed": 23
   },
   {
    "name": "xAI",
@@ -1357,9 +1517,14 @@
    "careers_url": "https://x.ai/careers",
    "feed": "greenhouse",
    "verified": false,
-   "state": "pending",
-   "jobs": 0,
-   "error": null
+   "state": "ok",
+   "jobs": 59,
+   "error": null,
+   "fetched": 302,
+   "matched": 61,
+   "restricted_removed": 1,
+   "unscreened": 0,
+   "listed": 59
   },
   {
    "name": "Benchling",
@@ -1367,9 +1532,9 @@
    "careers_url": "https://job-boards.greenhouse.io/benchling",
    "feed": "greenhouse",
    "verified": true,
-   "state": "pending",
+   "state": "failed",
    "jobs": 0,
-   "error": null
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/benchling/jobs?content=true"
   }
  ]
 }
