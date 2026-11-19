@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software Engineering Jobs</title>
+<style>
+  /* Layout: one centered column; sticky filter bar; dense rows scanned top to bottom. */
+  :root {
+    --bg: #f6f7f9; --surface: #ffffff; --fg: #16202b; --muted: #5b6876; --line: #dde2e8;
+    --accent: #0b6e69; --accent-soft: #e0f1ef; --warn: #8a5a00; --warn-soft: #fbf0d9;
+    --bad: #a3282f; --bad-soft: #fbe6e7;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10161c; --surface: #18212a; --fg: #e6ebf0; --muted: #98a5b3; --line: #2a3642;
+      --accent: #5cc9c0; --accent-soft: #143531; --warn: #e5b85c; --warn-soft: #3a2e12;
+      --bad: #f0868c; --bad-soft: #3d1b1e; color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 28px 0 14px; }
+  h1 { margin: 0 0 4px; font-size: 26px; line-height: 1.2; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0; }
+  .sub strong { color: var(--fg); font-weight: 600; }
+  .banner { margin: 14px 0 0; padding: 10px 12px; border-radius: 8px; background: var(--warn-soft); color: var(--warn); }
+  .filters { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 8px; }
+  input[type=search], input[type=text], select {
+    width: 100%; min-width: 0; padding: 9px 10px; font: inherit; color: var(--fg);
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+  }
+  input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  .toggles { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 10px; color: var(--muted); }
+  .toggles label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; color: var(--fg); }
+  .count { margin-left: auto; font-variant-numeric: tabular-nums; }
+  ul.jobs { list-style: none; margin: 12px 0 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  ul.jobs li { padding: 12px 14px; border-top: 1px solid var(--line); display: flex; gap: 12px; align-items: baseline; }
+  ul.jobs li:first-child { border-top: 0; }
+  .main { flex: 1; min-width: 0; }
+  .title { font-weight: 600; color: var(--fg); text-decoration: none; overflow-wrap: anywhere; }
+  .title:hover { color: var(--accent); text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 13.5px; overflow-wrap: anywhere; }
+  .meta b { color: var(--fg); font-weight: 600; }
+  .when { color: var(--muted); font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .chip { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: 11.5px; font-weight: 600; vertical-align: 1px; background: var(--accent-soft); color: var(--accent); }
+  .chip.warn { background: var(--warn-soft); color: var(--warn); }
+  .empty { padding: 28px 14px; text-align: center; color: var(--muted); }
+  button.more { display: block; margin: 14px auto; padding: 9px 18px; font: inherit; font-weight: 600; color: var(--accent); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+  section.sources { margin: 28px 0 48px; }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-top: 8px; }
+  summary { padding: 11px 14px; cursor: pointer; font-weight: 600; }
+  summary span { color: var(--muted); font-weight: 400; }
+  .src { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 2px 16px; padding: 0 14px 14px; font-size: 14px; }
+  .src a { color: var(--accent); text-decoration: none; }
+  .src a:hover { text-decoration: underline; }
+  .src small { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .src .err { color: var(--bad); display: block; font-size: 12px; overflow-wrap: anywhere; }
+  h2 { font-size: 17px; margin: 0 0 4px; }
+  @media (max-width: 640px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+    .grid .q { grid-column: 1 / -1; }
+    ul.jobs li { flex-direction: column; gap: 2px; }
+    .filters { position: static; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Software Engineering Jobs</h1>
+    <p class="sub" id="updated">Loading jobs…</p>
+    <p class="banner" id="banner" hidden></p>
+  </header>
+
+  <div class="filters">
+    <div class="grid">
+      <input class="q" id="q" type="search" placeholder="Search title or company" aria-label="Search title or company">
+      <select id="category" aria-label="Category">
+        <option value="">All categories</option>
+        <option value="fortune500">Fortune 500</option>
+        <option value="staffing">Staffing and consulting</option>
+        <option value="startup">Startups and unicorns</option>
+      </select>
+      <select id="company" aria-label="Company"><option value="">All companies</option></select>
+      <input id="loc" type="text" placeholder="Location, e.g. Texas" aria-label="Location">
+    </div>
+    <div class="toggles">
+      <label><input type="checkbox" id="usonly" checked> Hide non-US roles</label>
+      <label><input type="checkbox" id="remote"> Remote only</label>
+      <label><input type="checkbox" id="fresh"> Added in last 3 days</label>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+
+  <ul class="jobs" id="jobs"></ul>
+  <button class="more" id="more" hidden>Show more</button>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <p class="sub">Where each company's roles come from, as of the last update.</p>
+    <details open><summary>Live feeds <span id="n-ok"></span></summary><div class="src" id="s-ok"></div></details>
+    <details><summary>Feeds that failed last update <span id="n-failed"></span></summary><div class="src" id="s-failed"></div></details>
+    <details><summary>Link only, check their site directly <span id="n-link"></span></summary><div class="src" id="s-link"></div></details>
+  </section>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const CAT = { fortune500: "Fortune 500", staffing: "Staffing", startup: "Startup" };
+const PAGE = 100;
+let JOBS = [], shown = PAGE, generated = null;
+
+const el = (tag, cls, text) => {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text != null) n.textContent = text;
+  return n;
+};
+const daysAgo = iso => Math.floor((Date.now() - new Date(iso + "T00:00:00Z")) / 864e5);
+const when = j => {
+  const d = j.posted || j.first_seen;
+  if (!d) return "";
+  const n = daysAgo(d), label = j.posted ? "Posted" : "Found";
+  return n <= 0 ? `${label} today` : n === 1 ? `${label} yesterday` : n < 30 ? `${label} ${n} days ago` : `${label} ${d}`;
+};
+
+function filtered() {
+  const q = $("q").value.trim().toLowerCase(), cat = $("category").value, co = $("company").value;
+  const loc = $("loc").value.trim().toLowerCase();
+  const us = $("usonly").checked, remote = $("remote").checked, fresh = $("fresh").checked;
+  return JOBS.filter(j =>
+    (!q || (j.title + " " + j.company).toLowerCase().includes(q)) &&
+    (!cat || j.category === cat) && (!co || j.company === co) &&
+    (!loc || j.locations.join(" | ").toLowerCase().includes(loc)) &&
+    (!us || j.us !== false) && (!remote || j.remote) &&
+    (!fresh || daysAgo(j.posted || j.first_seen) <= 3));
+}
+
+function render() {
+  const list = filtered(), ul = $("jobs");
+  ul.replaceChildren();
+  $("count").textContent = `${list.length.toLocaleString()} of ${JOBS.length.toLocaleString()} roles`;
+  if (!list.length) {
+    ul.append(el("li", "empty", JOBS.length ? "No roles match these filters." : "No roles yet. They appear after the first update runs."));
+  }
+  for (const j of list.slice(0, shown)) {
+    const li = el("li"), main = el("div", "main");
+    const a = el("a", "title", j.title);
+    a.href = j.url; a.target = "_blank"; a.rel = "noopener";
+    const head = el("div");
+    head.append(a);
+    if (j.remote) head.append(el("span", "chip", "Remote"));
+    if (j.screened === false) {
+      const c = el("span", "chip warn", "Requirements not checked");
+      c.title = "The posting text could not be read, so it was not checked for citizenship or clearance requirements.";
+      head.append(c);
+    }
+    if (j.stale) head.append(el("span", "chip warn", "From an earlier update"));
+    const meta = el("div", "meta");
+    meta.append(el("b", null, j.company), ` · ${CAT[j.category] || j.category}`);
+    if (j.locations.length) {
+      const extra = j.location_count - Math.min(j.locations.length, 3);
+      meta.append(" · " + j.locations.slice(0, 3).join("; ") + (extra > 0 ? ` +${extra} more` : ""));
+    }
+    main.append(head, meta);
+    li.append(main, el("span", "when", when(j)));
+    ul.append(li);
+  }
+  $("more").hidden = list.length <= shown;
+}
+
+function renderSources(status) {
+  const groups = { ok: [], failed: [], link: [] };
+  for (const c of status.companies) {
+    const row = el("div"), a = el("a", null, c.name);
+    a.href = c.careers_url; a.target = "_blank"; a.rel = "noopener";
+    row.append(a);
+    if (c.state === "ok") { row.append(" ", el("small", null, `${c.jobs} roles`)); groups.ok.push(row); }
+    else if (c.state === "failed") { row.append(el("span", "err", c.error || "Feed failed")); groups.failed.push(row); }
+    else groups.link.push(row);
+  }
+  for (const k of Object.keys(groups)) {
+    $("s-" + k).replaceChildren(...(groups[k].length ? groups[k] : [el("div", "meta", "None")]));
+    $("n-" + k).textContent = `(${groups[k].length})`;
+  }
+  const pending = status.companies.filter(c => c.state === "pending").length;
+  if (pending) {
+    $("banner").hidden = false;
+    $("banner").textContent = "The first update has not run yet, so no roles are listed. Run the “Update jobs” workflow in the repository's Actions tab.";
+  }
+}
+
+async function load() {
+  try {
+    const [jobs, status] = await Promise.all(
+      ["jobs.json", "status.json"].map(f => fetch(f + "?t=" + Date.now()).then(r => r.json())));
+    JOBS = jobs.jobs; generated = new Date(jobs.generated_at);
+    const hrs = Math.round((Date.now() - generated) / 36e5);
+    const p = $("updated");
+    p.replaceChildren("Last updated ", el("strong", null, generated.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })),
+      ` (${hrs < 1 ? "under an hour" : hrs + (hrs === 1 ? " hour" : " hours")} ago). Refreshes every 6 hours.`);
+    if (hrs > 13) { $("banner").hidden = false; $("banner").textContent = "This data is more than 12 hours old, so the automatic update may have stopped. Check the Actions tab of the repository."; }
+    const sel = $("company");
+    for (const name of [...new Set(JOBS.map(j => j.company))].sort((a, b) => a.localeCompare(b))) sel.append(new Option(name, name));
+    renderSources(status);
+    render();
+  } catch (e) {
+    $("updated").textContent = "Could not load jobs.json. If you opened this file directly, view it through GitHub Pages or a local web server instead.";
+  }
+}
+for (const id of ["q", "category", "company", "loc", "usonly", "remote", "fresh"])
+  $(id).addEventListener("input", () => { shown = PAGE; render(); });
+$("more").addEventListener("click", () => { shown += PAGE; render(); });
+load();
+</script>
+</body>
+</html>
