@@ -1,0 +1,1088 @@
+{
+ "_readme": [
+  "One entry per company. feed is one of: greenhouse, lever, ashby, smartrecruiters (need token), workday (needs tenant, dc, site), amazon, none (link only).",
+  "verified=false means the feed address is a best guess that has not been tested; the first run shows which ones work (see site/status.json).",
+  "To fix a failing company, correct its token here, or set feed to none to show it as a link only."
+ ],
+ "companies": [
+  {
+   "name": "Amazon",
+   "category": "fortune500",
+   "careers_url": "https://www.amazon.jobs",
+   "verified": false,
+   "feed": "amazon"
+  },
+  {
+   "name": "Walmart",
+   "category": "fortune500",
+   "careers_url": "https://careers.walmart.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "walmart",
+   "dc": "wd5",
+   "site": "WalmartExternal"
+  },
+  {
+   "name": "UnitedHealth Group (Optum)",
+   "category": "fortune500",
+   "careers_url": "https://careers.unitedhealthgroup.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Apple",
+   "category": "fortune500",
+   "careers_url": "https://jobs.apple.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Alphabet (Google, Waymo)",
+   "category": "fortune500",
+   "careers_url": "https://careers.google.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "CVS Health",
+   "category": "fortune500",
+   "careers_url": "https://jobs.cvshealth.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "cvshealth",
+   "dc": "wd1",
+   "site": "CVS_Health_Careers"
+  },
+  {
+   "name": "Berkshire Hathaway (GEICO)",
+   "category": "fortune500",
+   "careers_url": "https://careers.geico.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "geico",
+   "dc": "wd1",
+   "site": "External"
+  },
+  {
+   "name": "Microsoft (incl. LinkedIn)",
+   "category": "fortune500",
+   "careers_url": "https://careers.microsoft.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "JPMorgan Chase",
+   "category": "fortune500",
+   "careers_url": "https://careers.jpmorgan.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Cigna",
+   "category": "fortune500",
+   "careers_url": "https://jobs.thecignagroup.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "cigna",
+   "dc": "wd5",
+   "site": "cignacareers"
+  },
+  {
+   "name": "Nvidia",
+   "category": "fortune500",
+   "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "nvidia",
+   "dc": "wd5",
+   "site": "NVIDIAExternalCareerSite"
+  },
+  {
+   "name": "Meta",
+   "category": "fortune500",
+   "careers_url": "https://www.metacareers.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Bank of America",
+   "category": "fortune500",
+   "careers_url": "https://careers.bankofamerica.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "ghr",
+   "dc": "wd1",
+   "site": "Lateral-US"
+  },
+  {
+   "name": "Ford",
+   "category": "fortune500",
+   "careers_url": "https://corporate.ford.com/careers.html",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "General Motors",
+   "category": "fortune500",
+   "careers_url": "https://search-careers.gm.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "generalmotors",
+   "dc": "wd5",
+   "site": "Careers_GM"
+  },
+  {
+   "name": "Citigroup",
+   "category": "fortune500",
+   "careers_url": "https://jobs.citi.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "AT&T",
+   "category": "fortune500",
+   "careers_url": "https://www.att.jobs",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Goldman Sachs",
+   "category": "fortune500",
+   "careers_url": "https://www.goldmansachs.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Comcast",
+   "category": "fortune500",
+   "careers_url": "https://jobs.comcast.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "comcast",
+   "dc": "wd5",
+   "site": "Comcast_Careers"
+  },
+  {
+   "name": "Wells Fargo",
+   "category": "fortune500",
+   "careers_url": "https://www.wellsfargojobs.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Morgan Stanley",
+   "category": "fortune500",
+   "careers_url": "https://www.morganstanley.com/careers",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "ms",
+   "dc": "wd5",
+   "site": "External"
+  },
+  {
+   "name": "Tesla",
+   "category": "fortune500",
+   "careers_url": "https://www.tesla.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "UPS",
+   "category": "fortune500",
+   "careers_url": "https://www.jobs-ups.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "FedEx",
+   "category": "fortune500",
+   "careers_url": "https://careers.fedex.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Lowe's",
+   "category": "fortune500",
+   "careers_url": "https://talent.lowes.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "lowes",
+   "dc": "wd5",
+   "site": "LWS_External_CS"
+  },
+  {
+   "name": "American Express",
+   "category": "fortune500",
+   "careers_url": "https://www.americanexpress.com/en-us/careers/",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Capital One",
+   "category": "fortune500",
+   "careers_url": "https://www.capitalonecareers.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "capitalone",
+   "dc": "wd12",
+   "site": "Capital_One"
+  },
+  {
+   "name": "IBM",
+   "category": "fortune500",
+   "careers_url": "https://www.ibm.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Eli Lilly",
+   "category": "fortune500",
+   "careers_url": "https://careers.lilly.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "lilly",
+   "dc": "wd5",
+   "site": "LLY"
+  },
+  {
+   "name": "Oracle",
+   "category": "fortune500",
+   "careers_url": "https://www.oracle.com/careers/",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Cisco",
+   "category": "fortune500",
+   "careers_url": "https://jobs.cisco.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "cisco",
+   "dc": "wd5",
+   "site": "Cisco_Careers"
+  },
+  {
+   "name": "American Airlines",
+   "category": "fortune500",
+   "careers_url": "https://jobs.aa.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Intel",
+   "category": "fortune500",
+   "careers_url": "https://jobs.intel.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "intel",
+   "dc": "wd1",
+   "site": "External"
+  },
+  {
+   "name": "Uber",
+   "category": "fortune500",
+   "careers_url": "https://www.uber.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Netflix",
+   "category": "fortune500",
+   "careers_url": "https://jobs.netflix.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Qualcomm",
+   "category": "fortune500",
+   "careers_url": "https://careers.qualcomm.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "qualcomm",
+   "dc": "wd5",
+   "site": "External"
+  },
+  {
+   "name": "U.S. Bancorp",
+   "category": "fortune500",
+   "careers_url": "https://careers.usbank.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "usbank",
+   "dc": "wd1",
+   "site": "US_Bank_Careers"
+  },
+  {
+   "name": "Salesforce",
+   "category": "fortune500",
+   "careers_url": "https://careers.salesforce.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "salesforce",
+   "dc": "wd12",
+   "site": "External_Career_Site"
+  },
+  {
+   "name": "Visa",
+   "category": "fortune500",
+   "careers_url": "https://corporate.visa.com/en/jobs/",
+   "verified": false,
+   "feed": "smartrecruiters",
+   "token": "Visa"
+  },
+  {
+   "name": "Micron",
+   "category": "fortune500",
+   "careers_url": "https://careers.micron.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "micron",
+   "dc": "wd1",
+   "site": "External"
+  },
+  {
+   "name": "AMD",
+   "category": "fortune500",
+   "careers_url": "https://careers.amd.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Hewlett Packard Enterprise",
+   "category": "fortune500",
+   "careers_url": "https://careers.hpe.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "hpe",
+   "dc": "wd5",
+   "site": "Jobsathpe"
+  },
+  {
+   "name": "PayPal",
+   "category": "fortune500",
+   "careers_url": "https://careers.pypl.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "paypal",
+   "dc": "wd1",
+   "site": "jobs"
+  },
+  {
+   "name": "Mastercard",
+   "category": "fortune500",
+   "careers_url": "https://careers.mastercard.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "mastercard",
+   "dc": "wd1",
+   "site": "CorporateCareers"
+  },
+  {
+   "name": "Charles Schwab",
+   "category": "fortune500",
+   "careers_url": "https://www.schwabjobs.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Adobe",
+   "category": "fortune500",
+   "careers_url": "https://careers.adobe.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "adobe",
+   "dc": "wd5",
+   "site": "external_experienced"
+  },
+  {
+   "name": "Fiserv",
+   "category": "fortune500",
+   "careers_url": "https://www.careers.fiserv.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "fiserv",
+   "dc": "wd5",
+   "site": "EXT"
+  },
+  {
+   "name": "Cognizant",
+   "category": "fortune500",
+   "careers_url": "https://careers.cognizant.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "ADP",
+   "category": "fortune500",
+   "careers_url": "https://jobs.adp.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Intuit",
+   "category": "fortune500",
+   "careers_url": "https://jobs.intuit.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Expedia",
+   "category": "fortune500",
+   "careers_url": "https://careers.expediagroup.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "expedia",
+   "dc": "wd108",
+   "site": "search"
+  },
+  {
+   "name": "DoorDash",
+   "category": "fortune500",
+   "careers_url": "https://careersatdoordash.com",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "doordashusa"
+  },
+  {
+   "name": "ServiceNow",
+   "category": "fortune500",
+   "careers_url": "https://careers.servicenow.com",
+   "verified": false,
+   "feed": "smartrecruiters",
+   "token": "ServiceNow"
+  },
+  {
+   "name": "DXC Technology",
+   "category": "fortune500",
+   "careers_url": "https://careers.dxc.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "dxctechnology",
+   "dc": "wd1",
+   "site": "DXCJobs"
+  },
+  {
+   "name": "eBay",
+   "category": "fortune500",
+   "careers_url": "https://jobs.ebayinc.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "ebay",
+   "dc": "wd5",
+   "site": "apply"
+  },
+  {
+   "name": "FIS",
+   "category": "fortune500",
+   "careers_url": "https://careers.fisglobal.com",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "fis",
+   "dc": "wd5",
+   "site": "SearchJobs"
+  },
+  {
+   "name": "Workday",
+   "category": "fortune500",
+   "careers_url": "https://www.workday.com/en-us/company/careers.html",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "workday",
+   "dc": "wd5",
+   "site": "Workday"
+  },
+  {
+   "name": "Western Digital",
+   "category": "fortune500",
+   "careers_url": "https://jobs.westerndigital.com",
+   "verified": false,
+   "feed": "smartrecruiters",
+   "token": "WesternDigital"
+  },
+  {
+   "name": "Palo Alto Networks",
+   "category": "fortune500",
+   "careers_url": "https://jobs.paloaltonetworks.com",
+   "verified": false,
+   "feed": "smartrecruiters",
+   "token": "PaloAltoNetworks2"
+  },
+  {
+   "name": "Arista Networks",
+   "category": "fortune500",
+   "careers_url": "https://www.arista.com/en/careers",
+   "verified": false,
+   "feed": "smartrecruiters",
+   "token": "AristaNetworks"
+  },
+  {
+   "name": "TEKsystems",
+   "category": "staffing",
+   "careers_url": "https://careers.teksystems.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Insight Global",
+   "category": "staffing",
+   "careers_url": "https://jobs.insightglobal.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Kforce",
+   "category": "staffing",
+   "careers_url": "https://www.kforce.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Experis (ManpowerGroup)",
+   "category": "staffing",
+   "careers_url": "https://www.experis.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Apex Systems (Everforth)",
+   "category": "staffing",
+   "careers_url": "https://www.apexsystems.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Robert Half Technology",
+   "category": "staffing",
+   "careers_url": "https://www.roberthalf.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Randstad Digital",
+   "category": "staffing",
+   "careers_url": "https://www.randstaddigital.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Akkodis",
+   "category": "staffing",
+   "careers_url": "https://www.akkodis.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Beacon Hill Technologies",
+   "category": "staffing",
+   "careers_url": "https://www.bhsg.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Collabera",
+   "category": "staffing",
+   "careers_url": "https://www.collabera.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Motion Recruitment",
+   "category": "staffing",
+   "careers_url": "https://motionrecruitment.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "CyberCoders (Everforth)",
+   "category": "staffing",
+   "careers_url": "https://www.cybercoders.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "KORE1",
+   "category": "staffing",
+   "careers_url": "https://www.kore1.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "The Judge Group",
+   "category": "staffing",
+   "careers_url": "https://www.judge.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "INSPYR Solutions",
+   "category": "staffing",
+   "careers_url": "https://www.inspyrsolutions.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Addison Group",
+   "category": "staffing",
+   "careers_url": "https://addisongroup.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Tundra Technical Solutions",
+   "category": "staffing",
+   "careers_url": "https://www.tundratechnical.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Ampcus",
+   "category": "staffing",
+   "careers_url": "https://www.ampcus.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Tenth Revolution Group",
+   "category": "staffing",
+   "careers_url": "https://www.tenthrevolution.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Eliassen Group",
+   "category": "staffing",
+   "careers_url": "https://www.eliassen.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Brooksource",
+   "category": "staffing",
+   "careers_url": "https://www.brooksource.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Vaco Technology",
+   "category": "staffing",
+   "careers_url": "https://www.vaco.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Aerotek",
+   "category": "staffing",
+   "careers_url": "https://www.aerotek.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Actalent",
+   "category": "staffing",
+   "careers_url": "https://www.actalentservices.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Hays",
+   "category": "staffing",
+   "careers_url": "https://www.hays.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Genesis10",
+   "category": "staffing",
+   "careers_url": "https://www.genesis10.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Mondo",
+   "category": "staffing",
+   "careers_url": "https://mondo.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Oxford Global Resources",
+   "category": "staffing",
+   "careers_url": "https://www.oxfordcorp.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Planet Technology",
+   "category": "staffing",
+   "careers_url": "https://www.planet-technology.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Matrix Resources",
+   "category": "staffing",
+   "careers_url": "https://www.matrixres.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "System One",
+   "category": "staffing",
+   "careers_url": "https://www.systemone.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Strategic Staffing Solutions",
+   "category": "staffing",
+   "careers_url": "https://www.strategicstaff.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Harvey Nash",
+   "category": "staffing",
+   "careers_url": "https://www.harveynashusa.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Aditi Consulting",
+   "category": "staffing",
+   "careers_url": "https://www.aditiconsulting.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Epitec",
+   "category": "staffing",
+   "careers_url": "https://www.epitec.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Solomon Page",
+   "category": "staffing",
+   "careers_url": "https://www.solomonpage.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Consultadd",
+   "category": "staffing",
+   "careers_url": "https://consultadd.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Compunnel",
+   "category": "staffing",
+   "careers_url": "https://www.compunnel.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Innova Solutions",
+   "category": "staffing",
+   "careers_url": "https://www.innovasolutions.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Infinite Computer Solutions",
+   "category": "staffing",
+   "careers_url": "https://www.infinite.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Mphasis",
+   "category": "staffing",
+   "careers_url": "https://www.mphasis.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "UST",
+   "category": "staffing",
+   "careers_url": "https://www.ust.com/en/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Synechron",
+   "category": "staffing",
+   "careers_url": "https://www.synechron.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "LTIMindtree",
+   "category": "staffing",
+   "careers_url": "https://www.ltimindtree.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Capgemini",
+   "category": "staffing",
+   "careers_url": "https://www.capgemini.com/us-en/careers/",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "CGI",
+   "category": "staffing",
+   "careers_url": "https://www.cgi.com/us/en-us/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Accenture",
+   "category": "staffing",
+   "careers_url": "https://www.accenture.com/us-en/careers",
+   "verified": false,
+   "feed": "workday",
+   "tenant": "accenture",
+   "dc": "wd103",
+   "site": "AccentureCareers"
+  },
+  {
+   "name": "Tata Consultancy Services",
+   "category": "staffing",
+   "careers_url": "https://www.tcs.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Deloitte",
+   "category": "staffing",
+   "careers_url": "https://apply.deloitte.com",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "OpenAI",
+   "category": "startup",
+   "careers_url": "https://openai.com/careers/search",
+   "verified": false,
+   "feed": "ashby",
+   "token": "openai"
+  },
+  {
+   "name": "Databricks",
+   "category": "startup",
+   "careers_url": "https://www.databricks.com/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "databricks"
+  },
+  {
+   "name": "Stripe",
+   "category": "startup",
+   "careers_url": "https://stripe.com/jobs",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "stripe"
+  },
+  {
+   "name": "Anthropic",
+   "category": "startup",
+   "careers_url": "https://www.anthropic.com/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "anthropic"
+  },
+  {
+   "name": "Crusoe",
+   "category": "startup",
+   "careers_url": "https://crusoe.ai/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "Crusoe"
+  },
+  {
+   "name": "Scale AI",
+   "category": "startup",
+   "careers_url": "https://scale.com/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "scaleai"
+  },
+  {
+   "name": "Notion",
+   "category": "startup",
+   "careers_url": "https://www.notion.com/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "notion"
+  },
+  {
+   "name": "Ramp",
+   "category": "startup",
+   "careers_url": "https://ramp.com/jobs",
+   "verified": false,
+   "feed": "ashby",
+   "token": "ramp"
+  },
+  {
+   "name": "Rippling",
+   "category": "startup",
+   "careers_url": "https://www.rippling.com/careers",
+   "verified": false,
+   "feed": "none"
+  },
+  {
+   "name": "Grafana Labs",
+   "category": "startup",
+   "careers_url": "https://grafana.com/careers/",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "grafanalabs"
+  },
+  {
+   "name": "Cohere",
+   "category": "startup",
+   "careers_url": "https://cohere.com/jobs",
+   "verified": true,
+   "feed": "ashby",
+   "token": "cohere"
+  },
+  {
+   "name": "ElevenLabs",
+   "category": "startup",
+   "careers_url": "https://elevenlabs.io/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "elevenlabs"
+  },
+  {
+   "name": "Plaid",
+   "category": "startup",
+   "careers_url": "https://plaid.com/careers/",
+   "verified": false,
+   "feed": "lever",
+   "token": "plaid"
+  },
+  {
+   "name": "Perplexity",
+   "category": "startup",
+   "careers_url": "https://www.perplexity.ai/hub/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "perplexity"
+  },
+  {
+   "name": "Vercel",
+   "category": "startup",
+   "careers_url": "https://vercel.com/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "vercel"
+  },
+  {
+   "name": "Replit",
+   "category": "startup",
+   "careers_url": "https://replit.com/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "replit"
+  },
+  {
+   "name": "Supabase",
+   "category": "startup",
+   "careers_url": "https://www.supabase.com/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "supabase"
+  },
+  {
+   "name": "Baseten",
+   "category": "startup",
+   "careers_url": "https://baseten.co/careers/jobs",
+   "verified": false,
+   "feed": "ashby",
+   "token": "baseten"
+  },
+  {
+   "name": "Mercor",
+   "category": "startup",
+   "careers_url": "https://www.mercor.com/careers/",
+   "verified": false,
+   "feed": "ashby",
+   "token": "mercor"
+  },
+  {
+   "name": "Speechify",
+   "category": "startup",
+   "careers_url": "https://job-boards.greenhouse.io/speechify",
+   "verified": true,
+   "feed": "greenhouse",
+   "token": "speechify"
+  },
+  {
+   "name": "Airtable",
+   "category": "startup",
+   "careers_url": "https://airtable.com/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "airtable"
+  },
+  {
+   "name": "Mercury",
+   "category": "startup",
+   "careers_url": "https://job-boards.greenhouse.io/mercury",
+   "verified": true,
+   "feed": "greenhouse",
+   "token": "mercury"
+  },
+  {
+   "name": "Apollo.io",
+   "category": "startup",
+   "careers_url": "https://www.apollo.io/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "apolloio"
+  },
+  {
+   "name": "Together AI",
+   "category": "startup",
+   "careers_url": "https://together.ai/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "togetherai"
+  },
+  {
+   "name": "Tailscale",
+   "category": "startup",
+   "careers_url": "https://tailscale.com/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "tailscale"
+  },
+  {
+   "name": "Suno",
+   "category": "startup",
+   "careers_url": "https://suno.com/careers",
+   "verified": false,
+   "feed": "ashby",
+   "token": "suno"
+  },
+  {
+   "name": "xAI",
+   "category": "startup",
+   "careers_url": "https://x.ai/careers",
+   "verified": false,
+   "feed": "greenhouse",
+   "token": "xai"
+  },
+  {
+   "name": "Benchling",
+   "category": "startup",
+   "careers_url": "https://job-boards.greenhouse.io/benchling",
+   "verified": true,
+   "feed": "greenhouse",
+   "token": "benchling"
+  }
+ ]
+}
