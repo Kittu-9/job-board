@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T00:41:54Z",
+ "generated_at": "2026-11-20T14:23:45Z",
  "companies": [
   {
    "name": "Amazon",
@@ -8,13 +8,13 @@
    "feed": "amazon",
    "verified": false,
    "state": "ok",
-   "jobs": 304,
+   "jobs": 307,
    "error": null,
-   "fetched": 584,
-   "matched": 499,
-   "restricted_removed": 116,
+   "fetched": 582,
+   "matched": 498,
+   "restricted_removed": 114,
    "unscreened": 0,
-   "listed": 304
+   "listed": 307
   },
   {
    "name": "Walmart",
@@ -24,7 +24,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
   },
   {
    "name": "UnitedHealth Group (Optum)",
@@ -62,14 +62,9 @@
    "careers_url": "https://jobs.cvshealth.com",
    "feed": "workday",
    "verified": false,
-   "state": "ok",
+   "state": "failed",
    "jobs": 37,
-   "error": null,
-   "fetched": 122,
-   "matched": 53,
-   "restricted_removed": 0,
-   "unscreened": 27,
-   "listed": 37
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cvshealth.wd1.myworkdayjobs.com/wday/cxs/cvshealth/CVS_Health_Careers/jobs"
   },
   {
    "name": "Berkshire Hathaway (GEICO)",
@@ -77,14 +72,9 @@
    "careers_url": "https://careers.geico.com",
    "feed": "workday",
    "verified": false,
-   "state": "ok",
+   "state": "failed",
    "jobs": 8,
-   "error": null,
-   "fetched": 36,
-   "matched": 8,
-   "restricted_removed": 0,
-   "unscreened": 2,
-   "listed": 8
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://geico.wd1.myworkdayjobs.com/wday/cxs/geico/External/jobs"
   },
   {
    "name": "Microsoft (incl. LinkedIn)",
@@ -553,13 +543,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 87,
+   "jobs": 86,
    "error": null,
-   "fetched": 501,
-   "matched": 134,
+   "fetched": 507,
+   "matched": 132,
    "restricted_removed": 4,
-   "unscreened": 54,
-   "listed": 87
+   "unscreened": 52,
+   "listed": 86
   },
   {
    "name": "DXC Technology",
@@ -610,7 +600,7 @@
    "state": "ok",
    "jobs": 16,
    "error": null,
-   "fetched": 279,
+   "fetched": 278,
    "matched": 18,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1143,13 +1133,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 243,
+   "jobs": 245,
    "error": null,
-   "fetched": 849,
-   "matched": 271,
+   "fetched": 855,
+   "matched": 273,
    "restricted_removed": 4,
    "unscreened": 0,
-   "listed": 243
+   "listed": 245
   },
   {
    "name": "Databricks",
@@ -1158,13 +1148,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 148,
+   "jobs": 147,
    "error": null,
-   "fetched": 899,
+   "fetched": 896,
    "matched": 252,
    "restricted_removed": 9,
    "unscreened": 0,
-   "listed": 148
+   "listed": 147
   },
   {
    "name": "Stripe",
@@ -1173,13 +1163,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 91,
+   "jobs": 90,
    "error": null,
-   "fetched": 772,
-   "matched": 114,
+   "fetched": 771,
+   "matched": 113,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 91
+   "listed": 90
   },
   {
    "name": "Anthropic",
@@ -1190,7 +1180,7 @@
    "state": "ok",
    "jobs": 155,
    "error": null,
-   "fetched": 637,
+   "fetched": 636,
    "matched": 168,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1205,7 +1195,7 @@
    "state": "ok",
    "jobs": 44,
    "error": null,
-   "fetched": 326,
+   "fetched": 325,
    "matched": 44,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1220,7 +1210,7 @@
    "state": "ok",
    "jobs": 33,
    "error": null,
-   "fetched": 168,
+   "fetched": 167,
    "matched": 51,
    "restricted_removed": 11,
    "unscreened": 0,
@@ -1235,7 +1225,7 @@
    "state": "ok",
    "jobs": 24,
    "error": null,
-   "fetched": 167,
+   "fetched": 169,
    "matched": 25,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1250,7 +1240,7 @@
    "state": "ok",
    "jobs": 38,
    "error": null,
-   "fetched": 184,
+   "fetched": 185,
    "matched": 38,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1275,7 +1265,7 @@
    "state": "ok",
    "jobs": 41,
    "error": null,
-   "fetched": 137,
+   "fetched": 139,
    "matched": 41,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1305,7 +1295,7 @@
    "state": "ok",
    "jobs": 26,
    "error": null,
-   "fetched": 129,
+   "fetched": 125,
    "matched": 26,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1375,7 +1365,7 @@
    "state": "ok",
    "jobs": 20,
    "error": null,
-   "fetched": 79,
+   "fetched": 80,
    "matched": 20,
    "restricted_removed": 0,
    "unscreened": 0,
