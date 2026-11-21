@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:22:33Z",
+ "generated_at": "2026-11-21T19:26:15Z",
  "companies": [
   {
    "name": "Amazon",
@@ -8,13 +8,13 @@
    "feed": "amazon",
    "verified": false,
    "state": "ok",
-   "jobs": 305,
+   "jobs": 304,
    "error": null,
-   "fetched": 579,
+   "fetched": 578,
    "matched": 493,
    "restricted_removed": 115,
    "unscreened": 0,
-   "listed": 305
+   "listed": 304
   },
   {
    "name": "Walmart",
@@ -364,7 +364,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
   },
   {
    "name": "U.S. Bancorp",
@@ -517,9 +517,14 @@
    "careers_url": "https://careers.expediagroup.com",
    "feed": "workday",
    "verified": false,
-   "state": "failed",
-   "jobs": 15,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
+   "state": "ok",
+   "jobs": 16,
+   "error": null,
+   "fetched": 38,
+   "matched": 22,
+   "restricted_removed": 0,
+   "unscreened": 12,
+   "listed": 16
   },
   {
    "name": "DoorDash",
@@ -530,7 +535,7 @@
    "state": "ok",
    "jobs": 57,
    "error": null,
-   "fetched": 409,
+   "fetched": 408,
    "matched": 57,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -545,7 +550,7 @@
    "state": "ok",
    "jobs": 77,
    "error": null,
-   "fetched": 528,
+   "fetched": 530,
    "matched": 115,
    "restricted_removed": 4,
    "unscreened": 35,
@@ -1150,7 +1155,7 @@
    "state": "ok",
    "jobs": 145,
    "error": null,
-   "fetched": 897,
+   "fetched": 895,
    "matched": 251,
    "restricted_removed": 10,
    "unscreened": 0,
@@ -1178,13 +1183,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 154,
+   "jobs": 155,
    "error": null,
-   "fetched": 633,
-   "matched": 167,
+   "fetched": 635,
+   "matched": 168,
    "restricted_removed": 3,
    "unscreened": 0,
-   "listed": 154
+   "listed": 155
   },
   {
    "name": "Crusoe",
@@ -1293,13 +1298,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 26,
+   "jobs": 25,
    "error": null,
-   "fetched": 122,
-   "matched": 26,
+   "fetched": 121,
+   "matched": 25,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 26
+   "listed": 25
   },
   {
    "name": "Plaid",
@@ -1470,7 +1475,7 @@
    "state": "ok",
    "jobs": 20,
    "error": null,
-   "fetched": 73,
+   "fetched": 76,
    "matched": 23,
    "restricted_removed": 0,
    "unscreened": 0,
