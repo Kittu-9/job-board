@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T19:26:15Z",
+ "generated_at": "2026-11-22T07:02:32Z",
  "companies": [
   {
    "name": "Amazon",
@@ -8,13 +8,13 @@
    "feed": "amazon",
    "verified": false,
    "state": "ok",
-   "jobs": 304,
+   "jobs": 303,
    "error": null,
    "fetched": 578,
    "matched": 493,
    "restricted_removed": 115,
    "unscreened": 0,
-   "listed": 304
+   "listed": 303
   },
   {
    "name": "Walmart",
@@ -520,10 +520,10 @@
    "state": "ok",
    "jobs": 16,
    "error": null,
-   "fetched": 38,
+   "fetched": 39,
    "matched": 22,
    "restricted_removed": 0,
-   "unscreened": 12,
+   "unscreened": 18,
    "listed": 16
   },
   {
@@ -1170,7 +1170,7 @@
    "state": "ok",
    "jobs": 90,
    "error": null,
-   "fetched": 778,
+   "fetched": 777,
    "matched": 114,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1213,13 +1213,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 33,
+   "jobs": 31,
    "error": null,
-   "fetched": 169,
-   "matched": 51,
+   "fetched": 166,
+   "matched": 49,
    "restricted_removed": 11,
    "unscreened": 0,
-   "listed": 33
+   "listed": 31
   },
   {
    "name": "Notion",
