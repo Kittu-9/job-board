@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T07:02:32Z",
+ "generated_at": "2026-11-22T19:49:10Z",
  "companies": [
   {
    "name": "Amazon",
@@ -8,13 +8,13 @@
    "feed": "amazon",
    "verified": false,
    "state": "ok",
-   "jobs": 303,
+   "jobs": 305,
    "error": null,
-   "fetched": 578,
+   "fetched": 576,
    "matched": 493,
-   "restricted_removed": 115,
+   "restricted_removed": 114,
    "unscreened": 0,
-   "listed": 303
+   "listed": 305
   },
   {
    "name": "Walmart",
@@ -62,9 +62,14 @@
    "careers_url": "https://jobs.cvshealth.com",
    "feed": "workday",
    "verified": false,
-   "state": "failed",
-   "jobs": 37,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cvshealth.wd1.myworkdayjobs.com/wday/cxs/cvshealth/CVS_Health_Careers/jobs"
+   "state": "ok",
+   "jobs": 27,
+   "error": null,
+   "fetched": 100,
+   "matched": 41,
+   "restricted_removed": 0,
+   "unscreened": 33,
+   "listed": 27
   },
   {
    "name": "Berkshire Hathaway (GEICO)",
@@ -364,7 +369,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
   },
   {
    "name": "U.S. Bancorp",
@@ -517,14 +522,9 @@
    "careers_url": "https://careers.expediagroup.com",
    "feed": "workday",
    "verified": false,
-   "state": "ok",
+   "state": "failed",
    "jobs": 16,
-   "error": null,
-   "fetched": 39,
-   "matched": 22,
-   "restricted_removed": 0,
-   "unscreened": 18,
-   "listed": 16
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
   },
   {
    "name": "DoorDash",
@@ -550,7 +550,7 @@
    "state": "ok",
    "jobs": 77,
    "error": null,
-   "fetched": 530,
+   "fetched": 529,
    "matched": 115,
    "restricted_removed": 4,
    "unscreened": 35,
@@ -1155,7 +1155,7 @@
    "state": "ok",
    "jobs": 145,
    "error": null,
-   "fetched": 895,
+   "fetched": 893,
    "matched": 251,
    "restricted_removed": 10,
    "unscreened": 0,
@@ -1185,7 +1185,7 @@
    "state": "ok",
    "jobs": 155,
    "error": null,
-   "fetched": 635,
+   "fetched": 636,
    "matched": 168,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1270,7 +1270,7 @@
    "state": "ok",
    "jobs": 39,
    "error": null,
-   "fetched": 140,
+   "fetched": 139,
    "matched": 39,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1300,7 +1300,7 @@
    "state": "ok",
    "jobs": 25,
    "error": null,
-   "fetched": 121,
+   "fetched": 122,
    "matched": 25,
    "restricted_removed": 0,
    "unscreened": 0,
