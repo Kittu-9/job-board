@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:49:10Z",
+ "generated_at": "2026-11-23T07:51:22Z",
  "companies": [
   {
    "name": "Amazon",
@@ -11,7 +11,7 @@
    "jobs": 305,
    "error": null,
    "fetched": 576,
-   "matched": 493,
+   "matched": 492,
    "restricted_removed": 114,
    "unscreened": 0,
    "listed": 305
@@ -62,14 +62,9 @@
    "careers_url": "https://jobs.cvshealth.com",
    "feed": "workday",
    "verified": false,
-   "state": "ok",
+   "state": "failed",
    "jobs": 27,
-   "error": null,
-   "fetched": 100,
-   "matched": 41,
-   "restricted_removed": 0,
-   "unscreened": 33,
-   "listed": 27
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cvshealth.wd1.myworkdayjobs.com/wday/cxs/cvshealth/CVS_Health_Careers/jobs"
   },
   {
    "name": "Berkshire Hathaway (GEICO)",
@@ -257,9 +252,14 @@
    "careers_url": "https://talent.lowes.com",
    "feed": "workday",
    "verified": false,
-   "state": "failed",
-   "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowes.wd5.myworkdayjobs.com/wday/cxs/lowes/LWS_External_CS/jobs"
+   "state": "ok",
+   "jobs": 15,
+   "error": null,
+   "fetched": 37,
+   "matched": 17,
+   "restricted_removed": 0,
+   "unscreened": 14,
+   "listed": 15
   },
   {
    "name": "American Express",
@@ -548,13 +548,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 77,
+   "jobs": 79,
    "error": null,
-   "fetched": 529,
-   "matched": 115,
+   "fetched": 530,
+   "matched": 116,
    "restricted_removed": 4,
-   "unscreened": 35,
-   "listed": 77
+   "unscreened": 36,
+   "listed": 79
   },
   {
    "name": "DXC Technology",
@@ -603,13 +603,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 16,
+   "jobs": 17,
    "error": null,
-   "fetched": 283,
-   "matched": 18,
+   "fetched": 285,
+   "matched": 19,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 16
+   "listed": 17
   },
   {
    "name": "Palo Alto Networks",
@@ -633,13 +633,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 62,
+   "jobs": 61,
    "error": null,
-   "fetched": 213,
-   "matched": 97,
+   "fetched": 212,
+   "matched": 96,
    "restricted_removed": 1,
-   "unscreened": 17,
-   "listed": 62
+   "unscreened": 16,
+   "listed": 61
   },
   {
    "name": "TEKsystems",
@@ -1153,13 +1153,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 145,
+   "jobs": 146,
    "error": null,
-   "fetched": 893,
-   "matched": 251,
+   "fetched": 894,
+   "matched": 253,
    "restricted_removed": 10,
    "unscreened": 0,
-   "listed": 145
+   "listed": 146
   },
   {
    "name": "Stripe",
@@ -1215,7 +1215,7 @@
    "state": "ok",
    "jobs": 31,
    "error": null,
-   "fetched": 166,
+   "fetched": 162,
    "matched": 49,
    "restricted_removed": 11,
    "unscreened": 0,
@@ -1300,7 +1300,7 @@
    "state": "ok",
    "jobs": 25,
    "error": null,
-   "fetched": 122,
+   "fetched": 123,
    "matched": 25,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1398,13 +1398,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 27,
+   "jobs": 26,
    "error": null,
-   "fetched": 109,
-   "matched": 32,
+   "fetched": 108,
+   "matched": 31,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 27
+   "listed": 26
   },
   {
    "name": "Speechify",
