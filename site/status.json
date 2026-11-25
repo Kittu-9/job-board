@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T08:48:23Z",
+ "generated_at": "2026-11-25T21:49:00Z",
  "companies": [
   {
    "name": "Amazon",
@@ -8,13 +8,13 @@
    "feed": "amazon",
    "verified": false,
    "state": "ok",
-   "jobs": 305,
+   "jobs": 309,
    "error": null,
-   "fetched": 578,
+   "fetched": 577,
    "matched": 483,
-   "restricted_removed": 117,
+   "restricted_removed": 119,
    "unscreened": 0,
-   "listed": 305
+   "listed": 309
   },
   {
    "name": "Walmart",
@@ -24,7 +24,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
   },
   {
    "name": "UnitedHealth Group (Optum)",
@@ -194,7 +194,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs"
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs"
   },
   {
    "name": "Wells Fargo",
@@ -364,7 +364,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
   },
   {
    "name": "U.S. Bancorp",
@@ -517,14 +517,9 @@
    "careers_url": "https://careers.expediagroup.com",
    "feed": "workday",
    "verified": false,
-   "state": "ok",
+   "state": "failed",
    "jobs": 14,
-   "error": null,
-   "fetched": 39,
-   "matched": 22,
-   "restricted_removed": 0,
-   "unscreened": 13,
-   "listed": 14
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
   },
   {
    "name": "DoorDash",
@@ -533,13 +528,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 57,
+   "jobs": 58,
    "error": null,
-   "fetched": 399,
-   "matched": 57,
+   "fetched": 402,
+   "matched": 58,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 57
+   "listed": 58
   },
   {
    "name": "ServiceNow",
@@ -548,13 +543,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 78,
+   "jobs": 77,
    "error": null,
-   "fetched": 524,
+   "fetched": 520,
    "matched": 112,
    "restricted_removed": 4,
    "unscreened": 32,
-   "listed": 78
+   "listed": 77
   },
   {
    "name": "DXC Technology",
@@ -603,13 +598,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 20,
+   "jobs": 21,
    "error": null,
-   "fetched": 296,
-   "matched": 22,
+   "fetched": 297,
+   "matched": 23,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 20
+   "listed": 21
   },
   {
    "name": "Palo Alto Networks",
@@ -633,13 +628,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 61,
+   "jobs": 63,
    "error": null,
-   "fetched": 214,
-   "matched": 96,
+   "fetched": 216,
+   "matched": 98,
    "restricted_removed": 1,
-   "unscreened": 16,
-   "listed": 61
+   "unscreened": 18,
+   "listed": 63
   },
   {
    "name": "TEKsystems",
@@ -1140,7 +1135,7 @@
    "state": "ok",
    "jobs": 250,
    "error": null,
-   "fetched": 877,
+   "fetched": 876,
    "matched": 277,
    "restricted_removed": 4,
    "unscreened": 0,
@@ -1153,13 +1148,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 145,
+   "jobs": 136,
    "error": null,
-   "fetched": 888,
-   "matched": 249,
+   "fetched": 873,
+   "matched": 237,
    "restricted_removed": 10,
    "unscreened": 0,
-   "listed": 145
+   "listed": 136
   },
   {
    "name": "Stripe",
@@ -1170,8 +1165,8 @@
    "state": "ok",
    "jobs": 93,
    "error": null,
-   "fetched": 771,
-   "matched": 116,
+   "fetched": 772,
+   "matched": 114,
    "restricted_removed": 0,
    "unscreened": 0,
    "listed": 93
@@ -1185,7 +1180,7 @@
    "state": "ok",
    "jobs": 156,
    "error": null,
-   "fetched": 636,
+   "fetched": 635,
    "matched": 169,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1198,13 +1193,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 41,
+   "jobs": 42,
    "error": null,
-   "fetched": 304,
-   "matched": 41,
+   "fetched": 302,
+   "matched": 42,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 41
+   "listed": 42
   },
   {
    "name": "Scale AI",
@@ -1215,7 +1210,7 @@
    "state": "ok",
    "jobs": 30,
    "error": null,
-   "fetched": 157,
+   "fetched": 158,
    "matched": 47,
    "restricted_removed": 11,
    "unscreened": 0,
@@ -1228,13 +1223,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 24,
+   "jobs": 25,
    "error": null,
-   "fetched": 173,
-   "matched": 25,
+   "fetched": 174,
+   "matched": 26,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 24
+   "listed": 25
   },
   {
    "name": "Ramp",
@@ -1245,7 +1240,7 @@
    "state": "ok",
    "jobs": 37,
    "error": null,
-   "fetched": 182,
+   "fetched": 183,
    "matched": 37,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1268,13 +1263,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 39,
+   "jobs": 43,
    "error": null,
-   "fetched": 136,
-   "matched": 39,
+   "fetched": 138,
+   "matched": 43,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 39
+   "listed": 43
   },
   {
    "name": "Cohere",
@@ -1285,7 +1280,7 @@
    "state": "ok",
    "jobs": 42,
    "error": null,
-   "fetched": 123,
+   "fetched": 121,
    "matched": 46,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1300,7 +1295,7 @@
    "state": "ok",
    "jobs": 24,
    "error": null,
-   "fetched": 116,
+   "fetched": 117,
    "matched": 24,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1323,13 +1318,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 63,
+   "jobs": 62,
    "error": null,
-   "fetched": 151,
-   "matched": 65,
+   "fetched": 149,
+   "matched": 64,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 63
+   "listed": 62
   },
   {
    "name": "Vercel",
@@ -1355,7 +1350,7 @@
    "state": "ok",
    "jobs": 13,
    "error": null,
-   "fetched": 37,
+   "fetched": 38,
    "matched": 13,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1368,13 +1363,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 20,
+   "jobs": 21,
    "error": null,
-   "fetched": 80,
-   "matched": 20,
+   "fetched": 82,
+   "matched": 21,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 20
+   "listed": 21
   },
   {
    "name": "Baseten",
@@ -1445,7 +1440,7 @@
    "state": "ok",
    "jobs": 11,
    "error": null,
-   "fetched": 70,
+   "fetched": 68,
    "matched": 11,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1460,7 +1455,7 @@
    "state": "ok",
    "jobs": 9,
    "error": null,
-   "fetched": 46,
+   "fetched": 45,
    "matched": 9,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1475,7 +1470,7 @@
    "state": "ok",
    "jobs": 21,
    "error": null,
-   "fetched": 81,
+   "fetched": 80,
    "matched": 24,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1505,7 +1500,7 @@
    "state": "ok",
    "jobs": 23,
    "error": null,
-   "fetched": 61,
+   "fetched": 58,
    "matched": 23,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1518,13 +1513,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 59,
+   "jobs": 61,
    "error": null,
-   "fetched": 297,
-   "matched": 61,
+   "fetched": 300,
+   "matched": 63,
    "restricted_removed": 1,
    "unscreened": 0,
-   "listed": 59
+   "listed": 61
   },
   {
    "name": "Benchling",
