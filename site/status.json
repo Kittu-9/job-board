@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:49:00Z",
+ "generated_at": "2026-11-26T08:34:22Z",
  "companies": [
   {
    "name": "Amazon",
@@ -12,7 +12,7 @@
    "error": null,
    "fetched": 577,
    "matched": 483,
-   "restricted_removed": 119,
+   "restricted_removed": 120,
    "unscreened": 0,
    "listed": 309
   },
@@ -24,7 +24,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
   },
   {
    "name": "UnitedHealth Group (Optum)",
@@ -194,7 +194,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs"
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs"
   },
   {
    "name": "Wells Fargo",
@@ -364,7 +364,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
   },
   {
    "name": "U.S. Bancorp",
@@ -530,7 +530,7 @@
    "state": "ok",
    "jobs": 58,
    "error": null,
-   "fetched": 402,
+   "fetched": 403,
    "matched": 58,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -545,7 +545,7 @@
    "state": "ok",
    "jobs": 77,
    "error": null,
-   "fetched": 520,
+   "fetched": 522,
    "matched": 112,
    "restricted_removed": 4,
    "unscreened": 32,
@@ -598,13 +598,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 21,
+   "jobs": 20,
    "error": null,
-   "fetched": 297,
-   "matched": 23,
+   "fetched": 294,
+   "matched": 22,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 21
+   "listed": 20
   },
   {
    "name": "Palo Alto Networks",
@@ -1150,8 +1150,8 @@
    "state": "ok",
    "jobs": 136,
    "error": null,
-   "fetched": 873,
-   "matched": 237,
+   "fetched": 878,
+   "matched": 238,
    "restricted_removed": 10,
    "unscreened": 0,
    "listed": 136
@@ -1180,7 +1180,7 @@
    "state": "ok",
    "jobs": 156,
    "error": null,
-   "fetched": 635,
+   "fetched": 634,
    "matched": 169,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1280,7 +1280,7 @@
    "state": "ok",
    "jobs": 42,
    "error": null,
-   "fetched": 121,
+   "fetched": 122,
    "matched": 46,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1295,7 +1295,7 @@
    "state": "ok",
    "jobs": 24,
    "error": null,
-   "fetched": 117,
+   "fetched": 112,
    "matched": 24,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1320,7 +1320,7 @@
    "state": "ok",
    "jobs": 62,
    "error": null,
-   "fetched": 149,
+   "fetched": 150,
    "matched": 64,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1363,13 +1363,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 21,
+   "jobs": 20,
    "error": null,
    "fetched": 82,
-   "matched": 21,
+   "matched": 20,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 21
+   "listed": 20
   },
   {
    "name": "Baseten",
@@ -1380,7 +1380,7 @@
    "state": "ok",
    "jobs": 34,
    "error": null,
-   "fetched": 109,
+   "fetched": 112,
    "matched": 35,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1485,7 +1485,7 @@
    "state": "ok",
    "jobs": 6,
    "error": null,
-   "fetched": 84,
+   "fetched": 87,
    "matched": 13,
    "restricted_removed": 0,
    "unscreened": 0,
