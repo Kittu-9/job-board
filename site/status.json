@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:34:22Z",
+ "generated_at": "2026-11-26T21:41:25Z",
  "companies": [
   {
    "name": "Amazon",
@@ -10,8 +10,8 @@
    "state": "ok",
    "jobs": 309,
    "error": null,
-   "fetched": 577,
-   "matched": 483,
+   "fetched": 576,
+   "matched": 482,
    "restricted_removed": 120,
    "unscreened": 0,
    "listed": 309
@@ -132,9 +132,14 @@
    "careers_url": "https://careers.bankofamerica.com",
    "feed": "workday",
    "verified": false,
-   "state": "failed",
-   "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs"
+   "state": "ok",
+   "jobs": 37,
+   "error": null,
+   "fetched": 83,
+   "matched": 39,
+   "restricted_removed": 0,
+   "unscreened": 30,
+   "listed": 37
   },
   {
    "name": "Ford",
@@ -530,7 +535,7 @@
    "state": "ok",
    "jobs": 58,
    "error": null,
-   "fetched": 403,
+   "fetched": 402,
    "matched": 58,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -543,13 +548,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 77,
+   "jobs": 76,
    "error": null,
    "fetched": 522,
-   "matched": 112,
+   "matched": 111,
    "restricted_removed": 4,
-   "unscreened": 32,
-   "listed": 77
+   "unscreened": 31,
+   "listed": 76
   },
   {
    "name": "DXC Technology",
@@ -598,13 +603,13 @@
    "feed": "smartrecruiters",
    "verified": false,
    "state": "ok",
-   "jobs": 20,
+   "jobs": 19,
    "error": null,
    "fetched": 294,
-   "matched": 22,
+   "matched": 21,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 20
+   "listed": 19
   },
   {
    "name": "Palo Alto Networks",
@@ -1150,7 +1155,7 @@
    "state": "ok",
    "jobs": 136,
    "error": null,
-   "fetched": 878,
+   "fetched": 882,
    "matched": 238,
    "restricted_removed": 10,
    "unscreened": 0,
@@ -1163,13 +1168,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 93,
+   "jobs": 92,
    "error": null,
-   "fetched": 772,
-   "matched": 114,
+   "fetched": 768,
+   "matched": 113,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 93
+   "listed": 92
   },
   {
    "name": "Anthropic",
@@ -1265,7 +1270,7 @@
    "state": "ok",
    "jobs": 43,
    "error": null,
-   "fetched": 138,
+   "fetched": 137,
    "matched": 43,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1280,7 +1285,7 @@
    "state": "ok",
    "jobs": 42,
    "error": null,
-   "fetched": 122,
+   "fetched": 123,
    "matched": 46,
    "restricted_removed": 3,
    "unscreened": 0,
@@ -1293,13 +1298,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 24,
+   "jobs": 23,
    "error": null,
-   "fetched": 112,
-   "matched": 24,
+   "fetched": 114,
+   "matched": 23,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 24
+   "listed": 23
   },
   {
    "name": "Plaid",
@@ -1363,13 +1368,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 20,
+   "jobs": 21,
    "error": null,
-   "fetched": 82,
-   "matched": 20,
+   "fetched": 83,
+   "matched": 21,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 20
+   "listed": 21
   },
   {
    "name": "Baseten",
