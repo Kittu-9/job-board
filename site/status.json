@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:41:25Z",
+ "generated_at": "2026-11-27T08:46:02Z",
  "companies": [
   {
    "name": "Amazon",
@@ -8,13 +8,13 @@
    "feed": "amazon",
    "verified": false,
    "state": "ok",
-   "jobs": 309,
+   "jobs": 310,
    "error": null,
    "fetched": 576,
    "matched": 482,
    "restricted_removed": 120,
    "unscreened": 0,
-   "listed": 309
+   "listed": 310
   },
   {
    "name": "Walmart",
@@ -132,14 +132,9 @@
    "careers_url": "https://careers.bankofamerica.com",
    "feed": "workday",
    "verified": false,
-   "state": "ok",
+   "state": "failed",
    "jobs": 37,
-   "error": null,
-   "fetched": 83,
-   "matched": 39,
-   "restricted_removed": 0,
-   "unscreened": 30,
-   "listed": 37
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs"
   },
   {
    "name": "Ford",
@@ -257,9 +252,14 @@
    "careers_url": "https://talent.lowes.com",
    "feed": "workday",
    "verified": false,
-   "state": "failed",
-   "jobs": 15,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lowes.wd5.myworkdayjobs.com/wday/cxs/lowes/LWS_External_CS/jobs"
+   "state": "ok",
+   "jobs": 17,
+   "error": null,
+   "fetched": 34,
+   "matched": 17,
+   "restricted_removed": 0,
+   "unscreened": 9,
+   "listed": 17
   },
   {
    "name": "American Express",
@@ -605,7 +605,7 @@
    "state": "ok",
    "jobs": 19,
    "error": null,
-   "fetched": 294,
+   "fetched": 292,
    "matched": 21,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1153,13 +1153,13 @@
    "feed": "greenhouse",
    "verified": false,
    "state": "ok",
-   "jobs": 136,
+   "jobs": 133,
    "error": null,
-   "fetched": 882,
-   "matched": 238,
+   "fetched": 879,
+   "matched": 235,
    "restricted_removed": 10,
    "unscreened": 0,
-   "listed": 136
+   "listed": 133
   },
   {
    "name": "Stripe",
@@ -1170,7 +1170,7 @@
    "state": "ok",
    "jobs": 92,
    "error": null,
-   "fetched": 768,
+   "fetched": 767,
    "matched": 113,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1300,7 +1300,7 @@
    "state": "ok",
    "jobs": 23,
    "error": null,
-   "fetched": 114,
+   "fetched": 106,
    "matched": 23,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1368,13 +1368,13 @@
    "feed": "ashby",
    "verified": false,
    "state": "ok",
-   "jobs": 21,
+   "jobs": 20,
    "error": null,
-   "fetched": 83,
-   "matched": 21,
+   "fetched": 82,
+   "matched": 20,
    "restricted_removed": 0,
    "unscreened": 0,
-   "listed": 21
+   "listed": 20
   },
   {
    "name": "Baseten",
