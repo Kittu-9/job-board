@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:27:04Z",
+ "generated_at": "2026-11-28T08:00:02Z",
  "companies": [
   {
    "name": "Amazon",
@@ -10,7 +10,7 @@
    "state": "ok",
    "jobs": 310,
    "error": null,
-   "fetched": 576,
+   "fetched": 575,
    "matched": 482,
    "restricted_removed": 120,
    "unscreened": 0,
@@ -24,7 +24,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
   },
   {
    "name": "UnitedHealth Group (Optum)",
@@ -214,7 +214,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "name": "Tesla",
@@ -374,7 +374,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "name": "Salesforce",
@@ -479,7 +479,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "name": "Cognizant",
@@ -517,9 +517,14 @@
    "careers_url": "https://careers.expediagroup.com",
    "feed": "workday",
    "verified": false,
-   "state": "failed",
+   "state": "ok",
    "jobs": 14,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
+   "error": null,
+   "fetched": 37,
+   "matched": 20,
+   "restricted_removed": 0,
+   "unscreened": 12,
+   "listed": 14
   },
   {
    "name": "DoorDash",
@@ -569,7 +574,7 @@
    "verified": false,
    "state": "failed",
    "jobs": 0,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "name": "FIS",
@@ -600,7 +605,7 @@
    "state": "ok",
    "jobs": 18,
    "error": null,
-   "fetched": 289,
+   "fetched": 290,
    "matched": 20,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1195,7 +1200,7 @@
    "state": "ok",
    "jobs": 42,
    "error": null,
-   "fetched": 302,
+   "fetched": 301,
    "matched": 42,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1295,7 +1300,7 @@
    "state": "ok",
    "jobs": 23,
    "error": null,
-   "fetched": 109,
+   "fetched": 108,
    "matched": 23,
    "restricted_removed": 0,
    "unscreened": 0,
@@ -1395,7 +1400,7 @@
    "state": "ok",
    "jobs": 26,
    "error": null,
-   "fetched": 109,
+   "fetched": 107,
    "matched": 31,
    "restricted_removed": 0,
    "unscreened": 0,
